@@ -1,0 +1,10 @@
+Connecting to database specified by database.yml
+  [1m[36m (2.2ms)[0m  [1mbegin transaction[0m
+Compiled jquery.easing.js  (2ms)  (pid 4856)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-06-21 03:57:28 +0600
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 112ms (Views: 110.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction

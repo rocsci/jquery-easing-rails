@@ -1,9 +1,9 @@
-<a href="#" id="link">Click me!</a>
+<div style="width: 100px; height: 100px; background: red;" id="div"></div>
 
 <script>
 $(function() {
-  $('#link').click(function() {
-    bootbox.alert("Hello world!");  
+  $('div').animate({ top: '-=100px' }, 600, 'easeInOutExpo', function () {
+    alert('Done')
   })
 })
 </script>
